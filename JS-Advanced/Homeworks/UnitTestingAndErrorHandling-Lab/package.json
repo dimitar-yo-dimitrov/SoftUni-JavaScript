@@ -1,0 +1,21 @@
+{
+  "name": "unittestinganderrorhandling-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "04.SumOfNumbers.js",
+  "scripts": {
+    "test": "node ./test/runTest.js",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  },
+  "devDependencies": {
+    "karma-coverage": "^2.1.0",
+    "nyc": "^15.1.0"
+  }
+}
